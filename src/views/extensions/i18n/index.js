@@ -78,6 +78,18 @@ const I18nExtension = () => {
                     Portuguese
                   </Label>
                 </div>
+                <div className='form-check mb-1'>
+                  <Input
+                    type='radio'
+                    id='radio-br'
+                    name='i18n-lang-radio'
+                    onChange={() => i18n.changeLanguage('br')}
+                    checked={i18n.language === 'br'}
+                  />
+                  <Label className='form-check-label' for='radio-br'>
+                    Português
+                  </Label>
+                </div>
               </div>
               <div className='border p-2 mt-3'>
                 <h5 className='mb-1'>Title</h5>
