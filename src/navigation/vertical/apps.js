@@ -21,7 +21,9 @@ export default [
     id: 'todo',
     title: 'Todo',
     icon: <CheckSquare size={20} />,
-    navLink: '/apps/todo'
+    navLink: '/apps/todo',
+    action: 'read',
+    resource: 'ACL'
   },
   {
     id: 'calendar',

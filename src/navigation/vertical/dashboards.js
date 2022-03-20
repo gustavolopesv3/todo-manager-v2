@@ -12,6 +12,8 @@ export default [
       {
         id: 'analyticsDash',
         title: 'Analytics',
+        action: 'read',
+        resource: 'ACL',
         icon: <Circle size={12} />,
         navLink: '/dashboard/analytics'
       },

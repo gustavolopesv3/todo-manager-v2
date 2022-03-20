@@ -3,7 +3,11 @@ import { lazy } from 'react'
 const UiElementRoutes = [
   {
     path: '/ui-element/typography',
-    component: lazy(() => import('../../views/ui-elements/typography'))
+    component: lazy(() => import('../../views/ui-elements/typography')),
+    meta:{
+      action: 'read',
+    resource: 'ACL'
+    }
   },
   {
     path: '/icons/reactfeather',

@@ -9,7 +9,9 @@ export default [
     id: 'typography',
     title: 'Typography',
     icon: <Type size={12} />,
-    navLink: '/ui-element/typography'
+    navLink: '/ui-element/typography',
+    action: 'read',
+    resource: 'ACL'
   },
   {
     id: 'feather',

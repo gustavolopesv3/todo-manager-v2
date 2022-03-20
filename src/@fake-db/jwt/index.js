@@ -42,6 +42,50 @@ const data = {
       extras: {
         eCommerceCartItemsCount: 5
       }
+    },
+    {
+      id: 3,
+      fullName: 'Gustavo Lopes',
+      username: 'gustavolopes',
+      password: '12341234',
+      avatar: require('@src/assets/images/avatars/1-small.png').default,
+      email: 'lopes@demo.com',
+      role: 'user',
+      ability: [
+        {
+          action: 'read',
+          subject: 'ACL'
+        },
+        {
+          action: 'read',
+          subject: 'Auth'
+        }
+      ],
+      extras: {
+        eCommerceCartItemsCount: 5
+      }
+    },
+    {
+      id: 3,
+      fullName: 'Giacomo',
+      username: 'giacomo',
+      password: '12341234',
+      avatar: require('@src/assets/images/avatars/1-small.png').default,
+      email: 'giacomo@demo.com',
+      role: 'user',
+      ability: [
+        {
+          action: 'read',
+          subject: 'ACL'
+        },
+        {
+          action: 'read',
+          subject: 'Auth'
+        }
+      ],
+      extras: {
+        eCommerceCartItemsCount: 5
+      }
     }
   ]
 }

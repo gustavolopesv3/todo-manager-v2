@@ -7,6 +7,7 @@ import others from './others'
 import charts from './charts'
 import dashboards from './dashboards'
 import uiElements from './ui-elements'
+import tasks from './tasks'
 
 // ** Merge & Export
-export default [...dashboards, ...apps, ...pages, ...uiElements, ...forms, ...tables, ...charts, ...others]
+export default [...dashboards, ...apps, ...pages, ...uiElements, ...forms, ...tables, ...charts, ...others, ...tasks]

@@ -48,7 +48,11 @@ const AppRoutes = [
     exact: true,
     appLayout: true,
     className: 'todo-application',
-    component: lazy(() => import('../../views/apps/todo'))
+    component: lazy(() => import('../../views/apps/todo')),
+    meta:{
+      action: 'read',
+      resource: 'ACL'
+    }
   },
   {
     path: '/apps/todo/:filter',
@@ -57,7 +61,9 @@ const AppRoutes = [
     className: 'todo-application',
     component: lazy(() => import('../../views/apps/todo')),
     meta: {
-      navLink: '/apps/todo'
+      navLink: '/apps/todo',
+      action: 'read',
+      resource: 'ACL'
     }
   },
   {
@@ -66,7 +72,9 @@ const AppRoutes = [
     className: 'todo-application',
     component: lazy(() => import('../../views/apps/todo')),
     meta: {
-      navLink: '/apps/todo'
+      navLink: '/apps/todo',
+      action: 'read',
+      resource: 'ACL'
     }
   },
   {
