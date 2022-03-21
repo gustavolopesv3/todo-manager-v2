@@ -32,9 +32,9 @@ const NavbarUser = props => {
           <ThemeToggler />
         </NavLink>
       </NavItem>
-      <NavbarSearch />
-      <CartDropdown />
-      <NotificationDropdown />
+      {/* <NavbarSearch /> */}
+      {/* <CartDropdown /> */}
+      {/* <NotificationDropdown /> */}
       <UserDropdown />
     </ul>
   )
