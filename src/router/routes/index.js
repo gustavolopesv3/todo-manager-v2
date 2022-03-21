@@ -13,7 +13,7 @@ import PageLayoutsRoutes from './PageLayouts'
 const TemplateTitle = '%s - Vuexy React Admin Template'
 
 // ** Default Route
-const DefaultRoute = '/dashboard/ecommerce'
+const DefaultRoute = 'apps/todo'
 
 // ** Merge Routes
 const Routes = [
