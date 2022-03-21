@@ -1,5 +1,6 @@
 // ** React Imports
 import { Link } from 'react-router-dom'
+import {useTranslation} from 'react-i18next'
 
 // ** Third Party Components
 import classnames from 'classnames'
@@ -10,6 +11,8 @@ import { Mail, Star, Check, Trash, Plus } from 'react-feather'
 import { Button, ListGroup, ListGroupItem } from 'reactstrap'
 
 const TodoSidebar = props => {
+  const {t} = useTranslation()
+
   // ** Props
   const { handleTaskSidebar, setMainSidebar, mainSidebar, dispatch, getTasks, params } = props
 
@@ -61,7 +64,7 @@ const TodoSidebar = props => {
                   onClick={() => handleFilter('')}
                 >
                   <Mail className='me-75' size={18} />
-                  <span className='align-middle'>My Tasks</span>
+                  <span className='align-middle'>{t('my-tasks')}</span>
                 </ListGroupItem>
                 <ListGroupItem
                   tag={Link}
